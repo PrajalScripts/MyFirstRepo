@@ -17,7 +17,10 @@ console.log(Math.floor(Date.now()/1000));
 
 let newDate= new Date();
 console.log(newDate);
-console.log(newDate.getFullYear());
+console.log(newDate.getFullYear());    
+
+
+
 
 newDate.toLocaleString('default',{
     weekday:"long"
